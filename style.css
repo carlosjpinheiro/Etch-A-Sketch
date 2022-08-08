@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: System, monospace, san-serif;
+    
+}
+
+#sketchpad {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid;
+    width: 50vw;
+    height: 80vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    /* border: 2px solid; */
+}
+
+.square {
+    /* border: 1px solid rebeccapurple; */
+    flex: 1;
+}   
+
+.colored {
+    background-color: black;
+}
